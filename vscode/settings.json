@@ -19,6 +19,8 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono Retina",
 
+  //Security
+  "security.workspace.trust.untrustedFiles": "newWindow",
   
   //Workbench
   "workbench.activityBar.location": "top",
@@ -73,7 +75,7 @@
   ],
 
   /*
-    Extensions
+    Extensions 
   */
   
   "extensions.ignoreRecommendations": true,
@@ -98,7 +100,7 @@
     ".env.example": "gear"
   },
 
-  //APC
+  //APC - Extension
   "apc.font.family": "Inter", // Installing the font is necessary
   "apc.header": {
     "height": 36
@@ -117,5 +119,8 @@
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
     ".composite-bar .monaco-action-bar .actions-container .action-item": "padding: 0 8px !important; height: 3.1em !important;",
   },
-  "security.workspace.trust.untrustedFiles": "newWindow",
+
+  // Total Typescript
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
 } 
