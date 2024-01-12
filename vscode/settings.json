@@ -27,11 +27,17 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.layoutControl.enabled": false,
 
+  // Window
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
-
+  
   "breadcrumbs.enabled": false,
   "update.showReleaseNotes": false,
 
@@ -49,19 +55,11 @@
   //Javascript/Typescript
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-    "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
 
   // Tailwind/CSS/PostCSS
   "tailwindCSS.experimental.classRegex": [
     ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
-
-  // JSON
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
 
   // Git
   "git.enableSmartCommit": true,
@@ -89,10 +87,6 @@
 
   //GitLens
   "gitlens.codeLens.authors.enabled": false,
-  "workbench.colorTheme": "GitHub Dark",
-  "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.layoutControl.enabled": false,
 
   //Material Icon Theme
   "material-icon-theme.files.associations": {
@@ -123,4 +117,5 @@
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
     ".composite-bar .monaco-action-bar .actions-container .action-item": "padding: 0 8px !important; height: 3.1em !important;",
   },
+  "security.workspace.trust.untrustedFiles": "newWindow",
 } 
