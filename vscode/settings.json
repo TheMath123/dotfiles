@@ -1,0 +1,126 @@
+{ 
+  //Editor
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.4,
+  "editor.rulers": [80, 120],
+  "editor.fontLigatures": true,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.tabSize": 2,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.minimap.enabled": false,
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono Retina",
+
+  
+  //Workbench
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.labelFormat": "short",
+
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "breadcrumbs.enabled": false,
+  "update.showReleaseNotes": false,
+
+  // File Nesting VSCode
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config*": "tailwind.config*, postcss.config*",
+    "next.config*": "next.config*, next-env*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+
+  //Javascript/Typescript
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // Tailwind/CSS/PostCSS
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  // Git
+  "git.enableSmartCommit": true,
+  
+
+  // ESLint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+
+  /*
+    Extensions
+  */
+  
+  "extensions.ignoreRecommendations": true,
+
+  // File Associations
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+
+  //GitLens
+  "gitlens.codeLens.authors.enabled": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+
+  //Material Icon Theme
+  "material-icon-theme.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },
+
+  //APC
+  "apc.font.family": "Inter", // Installing the font is necessary
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    ".composite-bar .monaco-action-bar .actions-container .action-item": "padding: 0 8px !important; height: 3.1em !important;",
+  },
+} 

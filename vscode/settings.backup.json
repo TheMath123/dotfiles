@@ -1,0 +1,261 @@
+{
+  // --- VSCode Configs ---
+  // Workbench config
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "statusBar.debuggingForeground": "#E1E1E6",
+    "statusBar.debuggingBackground": "#191622"
+  },
+  // Editor Config
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.fontSize": 14,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.rulers": [
+    120,
+    180
+  ],
+  "editor.fontFamily": "Fira Code,  Consolas, 'Courier New', monospace",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "​": true
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // Formate
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.proseWrap": "always",
+  "prettier.trailingComma": "all",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Terminal
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.fontSize": 14,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+    // "**/*.g.dart": true,
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.local": "env",
+    "*.css": "css",
+    "*.csb": "custom-system-builder"
+  },
+  "explorer.confirmDragAndDrop": false,
+  // --- End --- VSCode Configs ---
+  // --- Extensions Configs ---
+  // Material Icon
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  //Cloak
+  "cloak.hideComments": true,
+  "cloak.environmentKeys": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.useLocalIp": true,
+  // Git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.ignoreMissingGitWarning": true,
+  "git.confirmSync": false,
+  // Javascript config
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "postcss": "css"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "project-relative",
+  // Typescript
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  //ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "graphql"
+  ],
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  // Dart
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "files.watcherExclude": {
+    // Remove from file watching
+    "**/.fvm": true
+  },
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.openDevTools": "flutter",
+  "dart.warnWhenEditingFilesInPubCache": false,
+  // --- Dart
+  // Deno
+  // ---
+  "files.autoSave": "onWindowChange",
+  "editor.accessibilitySupport": "on",
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "FiraCode Nerd font Mono Retina",
+  "zenMode.fullScreen": false,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "explorer.confirmDelete": false,
+  // Tailwind CSS
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\((([^()]*|\\([^()]*\\))*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  //Lit-plugin
+  "lit-plugin.rules.no-complex-attribute-binding": "off",
+  "lit-plugin.rules.no-unclosed-tag": "off",
+  // ---
+  // Codesnap
+  "codesnap.backgroundColor": "#00000000",
+  "codesnap.boxShadow": "0px 4px 6px rgba(0, 0, 0, 0.25)",
+  // ---
+  "git.openRepositoryInParentFolders": "never",
+  "svelte.enable-ts-plugin": true,
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.enabled": false,
+  "react-native-tools.showUserTips": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.enableImages": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envComments",
+        "scope": "comment.line.number-sign.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.closureStyle": "hide",
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "[custom-system-builder]": {},
+  "totalTypeScript.hiddenTips": [
+    "interface-declaration",
+    "variable-type-annotation",
+    "typing-function-parameters",
+    "basic-types",
+    "array-type",
+    "optional-object-property",
+    "function-return-type",
+    "ts-object-type",
+    "passing-generics-to-types",
+    "union-type",
+    "any-type",
+    "null-keyword",
+    "literal-type",
+    "type-alias-declaration",
+    "record-utility-type",
+    "as-assertion",
+    "non-null-expression",
+    "mapped-type",
+    "undefined-keyword"
+  ]
+  // --- End --- Extensions Configs ---
+}
